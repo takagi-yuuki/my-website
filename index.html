@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>こんにちは</title>
+    <title>文章入力サイト</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>こんにちは</h1>
+        <h1>文章を入力してください</h1>
+        <textarea id="textInput" placeholder="ここに文章を入力してください..."></textarea>
+        <button onclick="displayText()">送信</button>
+        <div id="output"></div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
